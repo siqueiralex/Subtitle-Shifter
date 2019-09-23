@@ -1,8 +1,8 @@
 # Subtitle-Shifter
 
-### A VERY simple .srt subtitle shifter.
+#### A VERY simple .srt subtitle shifter.
 
-You have slightly unsynchronized subtitles issue? This script may fix your problem.
+You have slightly unsynchronized subtitles? This script may fix your problem!
 
 
 ## Usage:
@@ -13,13 +13,13 @@ $terminal> python3 subshifter Subtitles.srt [delta in millisseconds] [encoding (
 
 ## Examples:
 
-Shifting backwards 1 second:
+Shifting backwards by 1 second:
 
 ```
 $terminal> python3 subshifter BeingJohnMalkovich.srt -1000
 ```
 
-Shifting forward 2 seconds:
+Shifting forward by 2 seconds:
 
 ```
 $terminal> python3 subshifter TheDarjeelingLimited.srt 2000
