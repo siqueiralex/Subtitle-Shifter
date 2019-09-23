@@ -1,6 +1,8 @@
 # Subtitle-Shifter
-You have slightly unsynchronized subtitles issue? This may fix your problem.
-This is a VERY simple .srt subtitle shifter.
+
+### A VERY simple .srt subtitle shifter.
+
+You have slightly unsynchronized subtitles issue? This script may fix your problem.
 
 
 ## Usage:
