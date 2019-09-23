@@ -4,4 +4,6 @@ A simple .srt subtitles file time shifter
 
 ## USAGE
 
-` commands `
+```
+$terminal> python3 subshifter Subtitles.srt [delta in millisseconds] [encoding (optional)]
+```
