@@ -5,13 +5,13 @@ import os
 
 # Args handling
 if (len(sys.argv) < 3 or len(sys.argv) > 4):
-    print(r'subshifter usage: subshifter subtitles.srt [delta in milisseconds] [encoding (optional)]')
+    print(r'subshifter usage: subshifter.py subtitles.srt [delta in milisseconds] [encoding (optional)]')
     print("Please try again...")
     sys.exit(0)
 
 if (sys.argv[1][-4:] != ".srt") :
     print("ERROR: entry file must be a .srt subtitle")
-    print(r'subshifter usage: subshifter subtitles.srt [delta in milisseconds] [encoding (optional)]')
+    print(r'subshifter usage: subshifter.py subtitles.srt [delta in milisseconds] [encoding (optional)]')
     print("Please try again...")
     sys.exit(0)
 
@@ -25,7 +25,7 @@ try:
     delta = int(sys.argv[2])
 except ValueError:
     print("ERROR: delta must be an integer number")
-    print(r'subshifter usage: subshifter subtitles.srt [delta in milisseconds] [encoding (optional)]')
+    print(r'subshifter usage: subshifter.py subtitles.srt [delta in milisseconds] [encoding (optional)]')
     print("Please try again...")
     sys.exit(0)
 

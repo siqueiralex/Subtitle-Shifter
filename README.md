@@ -9,7 +9,7 @@ It was made to easily shift subtitles over time, so it won't disturb your experi
 ## Usage:
 
 ```
-$terminal> python3 subshifter Subtitles.srt [delta in millisseconds] [encoding (optional)]
+$terminal> python3 subshifter.py Subtitles.srt [delta in millisseconds] [encoding (optional)]
 ```
 
 ## Examples:
@@ -17,11 +17,11 @@ $terminal> python3 subshifter Subtitles.srt [delta in millisseconds] [encoding (
 Shifting backwards by 1 second:
 
 ```
-$terminal> python3 subshifter BeingJohnMalkovich.srt -1000
+$terminal> python3 subshifter.py BeingJohnMalkovich.srt -1000
 ```
 
 Shifting forward by 2 seconds:
 
 ```
-$terminal> python3 subshifter TheDarjeelingLimited.srt 2000
+$terminal> python3 subshifter.py TheDarjeelingLimited.srt 2000
 ```
