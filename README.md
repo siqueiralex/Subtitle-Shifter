@@ -4,7 +4,7 @@
 
 You have slightly unsynchronized subtitles? This script may fix your problem!
 
-It was made to easily shift subtitles over time, so it won't disturb your experience while watching a movie or series
+It was made to easily shift subtitles over time, so it won't disturb your experience while watching movies or series
 
 ## Usage:
 
