@@ -9,7 +9,6 @@ if (len(sys.argv) < 3 or len(sys.argv) > 4):
     print("Please try again...")
     sys.exit(0)
 
-
 if (sys.argv[1][-4:] != ".srt") :
     print("ERROR: entry file must be a .srt subtitle")
     print(r'subshifter usage: subshifter subtitles.srt [delta in milisseconds] [encoding (optional)]')
@@ -21,12 +20,7 @@ encoding = 'latin'
 if len(sys.argv) == 5:
     encoding = sys.argv[3]
 
-
-# Args reading
-file = open(os.path.join(os.getcwd(),sys.argv[1]), 'r', encoding=encoding)
-out_buff = []
-
-# Checking if delta is a valid numbe r
+# Checking if delta is a valid number
 try:
     delta = int(sys.argv[2])
 except ValueError:
@@ -38,6 +32,9 @@ except ValueError:
 
 
 print("Reading and Shifting subtitles in {} milisseconds...".format(delta))
+
+file = open(os.path.join(os.getcwd(),sys.argv[1]), 'r', encoding=encoding)
+out_buff = []
 
 lines = file.read().splitlines()
 
