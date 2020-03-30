@@ -2,13 +2,15 @@
 
 #### A VERY simple .srt subtitle shifter.
 
-You have slightly unsynchronized subtitles? This scrypt may fix your problem!
+Do you have slightly unsynchronized subtitles? Do you have some python knowledge?
+
+This scrypt might fix your problem!
 
 It was made to easily shift subtitles over time, so it won't disturb your experience while watching movies or series
 
 ## Usage:
 
-```
+```sh
 $terminal> python3 subshifter.py Subtitles.srt [delta in millisseconds] [encoding (optional)]
 ```
 
