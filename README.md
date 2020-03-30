@@ -1,4 +1,4 @@
-# Subtitle-Shifter
+# Subtitle Shifter
 
 #### A VERY simple .srt subtitle shifter.
 
